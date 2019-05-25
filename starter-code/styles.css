@@ -1,0 +1,308 @@
+/* GLOBAL */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", "OpenSans", sans-serif;
+}
+
+/* NAV BAR */
+
+.top-left {
+  float: left;
+}
+.top-links {
+  float: right;
+  margin-right: 10px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 5px;
+  font-size: 1em;
+  height: 17px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+/* HEADER SECTION 1 */
+
+header {
+  max-width: 100%;
+  font-size: 1em;
+  background-color: rgb(32, 101, 136);
+}
+
+.npm-logo {
+  vertical-align: top;
+  display: inline-block;
+  width: 7%;
+  margin: 10px 10px;
+}
+
+.login {
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.bear-logo {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+.search-bar {
+  width: 92%;
+  background-color: rgb(31, 82, 111);
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.search-button {
+  display: inline-block;
+  background-color: rgb(31, 82, 111);
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin-left: -5px;
+}
+
+.search-bar-items {
+  background-color: rgb(32, 101, 136);
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.search-bar input {
+  font-size: 1em;
+  padding: 15px 10px;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header-content {
+  background-image: url(images/city-scape.svg);
+  padding: 90px 20px;
+  height: 250px;
+  color: white;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  font-weight: lighter;
+  padding-left: 400px;
+}
+
+.header-content p {
+  font-size: 17px;
+  margin-top: 20px;
+  padding-left: 400px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: lighter;
+}
+
+header .button {
+  background: rgb(240, 146, 51);
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 120px;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 8px 10px;
+  margin: 80px 400px;
+}
+
+/* SECTION 2 */
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  height: 500px;
+  max-width: 100%;
+  font-size: 1em;
+  padding: 20px;
+}
+
+#collaboration img {
+  width: 60%;
+  height: 80%;
+  float: left;
+  padding: 20px;
+}
+
+#collaboration h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 48px;
+  padding: 20px;
+}
+
+#collaboration .container {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  padding: 20px;
+}
+
+#collaboration .container li {
+  padding: 20px;
+}
+
+#collaboration .button {
+  background: rgb(203, 56, 55);
+  border-radius: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 8px 10px;
+}
+
+#collaboration .button a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#collaboration .text {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-weight: lighter;
+}
+
+#collaboration .text a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+}
+
+/* SECTION 3 */
+
+#whatis {
+  background-image: url(images/forklift.svg);
+  max-width: 100%;
+  font-size: 1em;
+  padding: 20px;
+  height: 500px;
+}
+
+#whatis .text {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-weight: lighter;
+  margin-left: 200px;
+  font-size: 17px;
+}
+
+#whatis .text h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 48px;
+  padding: 20px;
+}
+
+#whatis .button {
+  background: rgb(49, 68, 88);
+  border-radius: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  margin: 10px 250px;
+}
+
+/* SECTION 4*/
+
+#whatcan {
+  background-color: white;
+  max-width: 100%;
+  font-size: 1em;
+  padding: 20px;
+  height: 500px;
+}
+
+#whatcan .text {
+  text-align: center;
+}
+
+#whatcan .text h1 {
+  color: rgb(83, 88, 98);
+  font-weight: lighter;
+  font-size: 48px;
+  padding: 20px;
+}
+
+#whatcan .text p {
+  color: rgb(135, 145, 156);
+  font-weight: lighter;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.boxes {
+  padding-top: 30px;
+}
+
+.boxes a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+.boxes h2 {
+  color: rgb(83, 88, 98);
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+.boxes p {
+  color: rgb(135, 145, 156);
+  font-weight: lighter;
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+}
+
+.boxes img {
+  margin: 0 35%;
+  padding: 20px;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
